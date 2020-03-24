@@ -1,35 +1,27 @@
 {
-  "name": "WReport",
-  "version": "0.0.1",
-  "description": "Weather Report",
-  "private": true,
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "bower": "^1.8.8",
-    "ejs": "^2.6.2",
-    "express": "^4.17.1",
-    "request": "^2.88.0"
-  },
+  "name": "get-started-node",
+  "main": "server.js",
+  "description": "An introduction to developing Node.js apps on the IBM Cloud platform",
+  "version": "0.1.1",
+  "private": false,
   "engines": {
-    "node": "^10.9.0"
+    "node": "10.*"
   },
-  "devDependencies": {
-    "chai": "^3.4.0",
-    "grunt": "^1.0.4",
-    "node-sass": "^4.12.0",
-    "grunt-available-tasks": "^0.6.2",
-    "grunt-bower-installer": "^0.3.6",
-    "grunt-contrib-clean": "^1.0.0",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-jshint": "^1.0.0",
-    "grunt-istanbul": "^0.7.0",
-    "grunt-mocha-test": "^0.12.7",
-    "grunt-sass": "^3.0.2",
-    "mocha": "^2.3.3",
-    "rewire": "^2.3.4",
-    "saucelabs": "^1.0.1",
-    "selenium-webdriver": "2.44.0",
-    "sinon": "^1.17.7",
-    "supertest": "^1.1.0"
-  }
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IBM-Cloud/get-started-node"
+  },
+  "dependencies": {
+    "@cloudant/cloudant": "^3.0.2",
+    "body-parser": "^1.17.x",
+    "cfenv": "^1.0.x",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.x",
+    "mongodb": "^3.0.10"
+  },
+  "author": "IBM Corp",
+  "license": "Apache-2.0"
 }
